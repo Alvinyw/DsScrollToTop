@@ -1,5 +1,4 @@
-# scrollToTop
-点击滚动到页面顶部
+# scrollToTop：点击滚动到页面顶部
 
 ## 插件用法
 ```html
@@ -7,7 +6,7 @@
 <script type="text/javascript" src="scrollToTop.js"></script>
 <link rel="stylesheet" href="scrollToTop.css" />
 ```
-秩序引入上面三个文件就好了。
+应用该插件只需引入上面三个文件就好了。
 
 ## 插件参数配置
 ```javascript
