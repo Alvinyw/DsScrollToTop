@@ -2,15 +2,15 @@
 点击滚动到页面顶部
 
 ## 插件用法
-’’’html
+```html
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="scrollToTop.js"></script>
 <link rel="stylesheet" href="scrollToTop.css" />
-’’’
+```
 秩序引入上面三个文件就好了。
 
 ## 插件参数配置
-’’’javascript
+```javascript
 $(function () {
     $(document).UItoTop({
         text: "&and;",/* 点击区域的图标或文本 */
@@ -23,7 +23,7 @@ $(function () {
 		easingType: "linear"/* 上升轨迹 */
     })
 });
-’’’
+```
 参数说明如上。
 
 ## 扩展
