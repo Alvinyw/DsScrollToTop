@@ -25,5 +25,8 @@ $(function () {
 ```
 参数说明如上。
 
-## 扩展
+## 插件示例
+[Demo](https://alvinyw.github.io/Blog/scrollToTop/scrollToTop.html)
+
+## 插件扩展
 插件详情请看笔记 [如何改变页面滚动到顶部的运动轨迹](http://alvinwp.com/js/431) 和 [animate() 方法的使用和插件 jQuery Easing 扩展](http://alvinwp.com/js/392)
