@@ -4,26 +4,39 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="scrollToTop.js"></script>
-<link rel="stylesheet" href="scrollToTop.css" />
 <title>scrollToTop</title>
 <style>
 body, html { height: 100%; }
-.item { height: 35%; }
-.a { background: #999; }
-.b { background: #aaa; }
-.c { background: #bbb; }
-.d { background: #ccc; }
-.e { background: #ddd; }
-.f { background: #eee; }
+.item { height: 50%; }
+.a { background: #111; }
+.b { background: #222; }
+.c { background: #333; }
+.d { background: #444; }
+.e { background: #555; }
+.f { background: #666; }
+.g { background: #777; }
+.h { background: #888; }
+.i { background: #999; }
 </style>
 </head>
 
 <body>
-<div class="item a">1111111111111111111</div>
-<div class="item b">2222222222222222222</div>
-<div class="item c">3333333333333333333</div>
-<div class="item d">4444444444444444444</div>
-<div class="item e">5555555555555555555</div>
-<div class="item f">6666666666666666666</div>
+<div class="item a"></div>
+<div class="item b"></div>
+<div class="item c"></div>
+<div class="item d"></div>
+<div class="item e"></div>
+<div class="item f"></div>
+<div class="item g"></div>
+<div class="item h"></div>
+<div class="item i"></div>
+<script>
+/* 调用 UItoTop 方法 */
+$(function () {
+    $(document).scrollToTop({
+        //easingType: "easeOutQuart"
+    })
+});
+</script>
 </body>
 </html>
