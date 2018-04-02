@@ -50,7 +50,10 @@ $(function () {
 ```
 - **scrollToWhere**: 滚动到距离页面顶部 scrollToWhere 处停下；默认值是 0，即默认滚动到页面顶部；
 - **targetNodeText**：绑定了滚动事件的元素的 html() 内容；若为空，即默认出现向上箭头；
-- **easingType**：滚动的轨迹，默认值是 easeOutQuart；本插件调用 jQuery.easing 的方法提供了 easeInQuart/easeOutQuart/easeInOutQuart 三种轨迹；可通过下面的代码继续扩展滚动轨迹：
+- **easingType**：滚动的轨迹，默认值是 easeOutQuart；本插件调用 jQuery.easing 的方法提供了 easeInQuart/easeOutQuart/easeInOutQuart 三种运动轨迹；
+
+可通过下面的代码继续扩展滚动轨迹：
+
   ```javascript
   jQuery.extend(jQuery.easing, {
 		easeInQuart: function (x, t, b, c, d) {
@@ -67,7 +70,7 @@ $(function () {
 		}
    });
   ```
-- 其余参数比较简单，可看后面的相关注释
+- 其余参数比较简单，可看后面的相关注释。
 
 ## 插件示例
 [Demo](https://alvinyw.github.io/Blog/DsScrollToTop/scrollToTop.html)
