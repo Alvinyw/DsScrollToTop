@@ -52,7 +52,7 @@ $(function () {
 - **targetNodeText**：绑定了滚动事件的元素的 html() 内容；若为空，即默认出现向上箭头；
 - **easingType**：滚动的轨迹，默认值是 easeOutQuart；本插件调用 jQuery.easing 的方法提供了 easeInQuart/easeOutQuart/easeInOutQuart 三种运动轨迹；
 
-可通过下面的代码继续扩展滚动轨迹：
+  可通过下面的代码继续扩展滚动轨迹：
 
   ```javascript
   jQuery.extend(jQuery.easing, {
